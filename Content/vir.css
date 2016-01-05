@@ -1,11 +1,11 @@
 @font-face{
 	font-family: SignawMedium;
-	src: url(../fonts/SaginawMedium.ttf);
+	src: url(SaginawMedium.ttf);
 }
 
 @font-face{
 	font-family: MyriadProLight;
-	src: url(../fonts/MyriadProLight.otf);
+	src: url(MyriadProLight.otf);
 }
 
 /* enable absolute positioning */
