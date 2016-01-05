@@ -1,0 +1,55 @@
+﻿
+@{
+    ViewBag.Title = "SignUp";
+}
+
+<div class="container">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h1 class="heading myriad-pro-font">Sign Up</h1>
+            </div>
+            <div class="panel-body">
+                <form class="form-horizontal" method="post" action="#">
+
+                    <div class="row align-input form-inline left-addon">
+                        <input type="text" name="fname" placeholder="First Name" class="form-control" required />
+                        <input type="text" name="lname" placeholder="Last Name" class="form-control" required />
+                    </div>
+
+                    <div class="text-input align-input inner-addon left-addon">
+                        <i class="glyphicon glyphicon-envelope"></i>
+                        <input type="email" name="user" placeholder="Email" class="form-control" required />
+                    </div>
+
+                    <div class="text-input align-input inner-addon left-addon">
+                        <i class="glyphicon glyphicon-user"></i>
+                        <input type="text" name="user" placeholder="Username" class="form-control" required />
+                    </div>
+
+
+                    <div class="text-input align-input inner-addon left-addon">
+                        <i class="glyphicon glyphicon-lock"></i>
+                        <input type="password" name="pass" placeholder="Password" class="form-control" required />
+                    </div>
+                    <div class="text-input align-input inner-addon left-addon">
+                        <i class="glyphicon glyphicon-lock"></i>
+                        <input type="password" name="pass" placeholder="Confirm Password" class="form-control" required />
+                    </div>
+
+                    <div class="align-input right">
+                        <p class="myriad-pro-font">Already have an account? <a href="/Home/Login">Sign in here.</a></p>
+                    </div>
+                    <div class="center">
+                        <button type="submit" class="btn btn-primary btn-lg align-input">Create Account</button>
+                    </div>
+                    <br />
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3">
+    </div>
+
+</div>
