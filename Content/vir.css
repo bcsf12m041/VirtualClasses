@@ -13,6 +13,15 @@
     font-style: normal;
 }
 
+#alertdiv .align-input{
+    height: 25px;
+}
+
+.align-input .alert{
+	height: 25px;
+	padding-top: 2px;
+}
+
 /* enable absolute positioning */
 .inner-addon { 
     position: relative; 
@@ -84,7 +93,6 @@
 
 .center{
 	text-align:center;
-	align:center;
 }
 
 .myriad-pro-font{
@@ -101,7 +109,6 @@
 	color:black;
 	font-size: 200%;
 	text-align:center;
-	font-style: bold;
 	font-family: SignawMedium;
 }
 
